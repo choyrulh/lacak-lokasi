@@ -7,6 +7,8 @@ import { v4 as uuidv4 } from 'uuid';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
+import 'leaflet-defaulticon-compatibility';
 
 // Initialize Firebase
 const firebaseConfig = {

@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      {
+        "source": "/track/(.*)",
+        "destination": "/"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
+  }
