@@ -29,7 +29,7 @@ export default function AccessLogs() {
       
       // 1. Fetch data dari API dengan query params page & limit
       const res = await axios.get(
-        `http://localhost:3100/api/logs?page=${page}&limit=${limit}`
+        `https://backend-movie-apps-api-one.vercel.app/api/logs?page=${page}&limit=${limit}`
       );
       
       const { data, pagination: meta } = res.data;
